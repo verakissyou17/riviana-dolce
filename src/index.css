@@ -30,13 +30,6 @@ html {
 
 body {
   background-color: var(--bg);
-  background-image: url("/riviana-dolce/images/swirl-corners.webp"),
-    url("/riviana-dolce/images/swirl-corners-2.webp");
-  background-size: 8em, 8em;
-  background-repeat: no-repeat, no-repeat;
-  background-position:
-    right -1.25em top var(--header-height),
-    left -1.25em bottom;
   font-family: "Cookie", cursive, system-ui;
 }
 
