@@ -10,7 +10,7 @@ function CheckoutHeader() {
     <HeaderStyled>
       <div className="header-left-section">
         <Link
-          to="/home"
+          to="/"
           className="header-link"
         >
           <LogoStyled>Riviana Dolce</LogoStyled>

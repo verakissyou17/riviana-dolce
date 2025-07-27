@@ -9,7 +9,7 @@ function Header() {
   return (
     <HeaderStyled>
       <div className="header-left-section">
-        <Link to="/home">
+        <Link to="/">
           <LogoStyled>Riviana Dolce</LogoStyled>
           <MobileLogoStyled>Riviana Dolce</MobileLogoStyled>
         </Link>
@@ -28,7 +28,7 @@ function Header() {
         >
           <img
             className="search-icon"
-            src="/riviana-dolce/images/icons/search-icon.svg"
+            src="/images/icons/search-icon.svg"
             aria-labelledby="search-button"
             alt="search-button"
           />
@@ -52,7 +52,7 @@ function Header() {
         >
           <img
             className="cart-icon"
-            src="/riviana-dolce/images/icons/cart-icon.webp"
+            src="/images/icons/cart-icon.webp"
             alt="cart-icon"
             aria-labelledby="cart-link"
           />

@@ -4,6 +4,7 @@ function Tracking() {
   return (
     <>
       <Header />
+        <h1>Tracking Page</h1> 
     </>
   )
 }

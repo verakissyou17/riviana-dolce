@@ -4,6 +4,7 @@ function Checkout() {
   return (
     <>
       <CheckoutHeader/>
+        <h1>Checkout Page</h1> 
     </>
   )
 }
