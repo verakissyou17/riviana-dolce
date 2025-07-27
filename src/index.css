@@ -26,15 +26,9 @@
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
   background-color: var(--bg);
   background-image: url("/riviana-dolce/images/swirl-corners.webp"),
     url("/riviana-dolce/images/swirl-corners-2.webp");
