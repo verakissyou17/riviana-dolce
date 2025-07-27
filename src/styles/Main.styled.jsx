@@ -7,7 +7,14 @@ export const MainStyled = styled.main`
     padding: 1em;
     width: 100%;
     max-width: 1400px;
-    margin: 1em auto;
+    margin: 1em auto; 
+
+    .text-no-match {
+      text-align: center;
+      font-weight: 900;
+      font-family: "Nunito Sans", sans-serif;
+      color: var( --link-primary-hover);
+    }
 
   .product-container.single-product {
     max-width: 250px;

@@ -14,7 +14,9 @@ function Header({
 }) {
   const handleSearch = (e) => {
     e.preventDefault();
-    onSearchSubmit(searchTerm.trim());
+    const trimmed = searchTerm.trim();
+    onSearchSubmit(trimmed);
+    setSearchTerm("");
   };
 
   return (
@@ -39,6 +41,11 @@ function Header({
           placeholder="Cauta produse..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleSearch(e);
+            }
+          }}
         />
 
         <button

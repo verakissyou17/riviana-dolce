@@ -41,29 +41,8 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
   }
   return (
     <MainStyled>
-      {products.length === 0 && (
-        <div className="product-container">
-          <div className="product-image-container">
-            <img
-              className="product-image"
-              src="/images/products/chocolate-fudge-cake.webp"
-              alt="Chocolate Fudge Cake"
-              width="250"
-              height="250"
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
-          <section className="product-details">
-            <div className="product-name">
-              <h1>Chocolate Fudge Cake</h1>
-            </div>
-            <div className="product-price">12.99lei</div>
-          </section>
-        </div>
-      )}
         {products.length === 0 ? (
-          <p>No products match your search.</p>
+          <p className="text-no-match">No products match your search.</p>
         ) : (
           products.map((product) => {
             const productQty = quantities[product.id] || 0;
