@@ -10,9 +10,10 @@ export const FormStyled = styled.form`
     display: flex;
     gap: 0.5rem;
     border: 2px solid var(--bg-header);
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     padding: 1em;
     margin-bottom: 1.5rem;
+    background-color: var(--bg-product-container);
   }
 
   .radio-group,
@@ -45,10 +46,11 @@ export const FormStyled = styled.form`
   }
 
   .user-form {
-    border: 1px solid var(--white);
+    border: 1px solid var(--bg-header);
     padding: 1em;
-    border-radius: 0.25em;
+    border-radius: 0.5rem;
     margin-bottom: 1em;
+    background-color: var(--bg-product-container);
   }
 
   .user-form-group {

@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const PaymentSummaryStyled = styled.div`
   .payment-summary {
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     padding: 1em;
-    border: 1px solid var(--white);
+    border: 1px solid var(--bg-header);
+    background-color: var(--bg-product-container);
   }
 
   .payment-summary-title {

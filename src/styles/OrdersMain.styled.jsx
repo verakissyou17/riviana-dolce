@@ -20,7 +20,7 @@ export const OrdersMainStyled = styled.main`
   }
 
   .order-header {
-    background-color: rgb(240, 242, 242);
+    background-color: var(--bg-product-container);
     border: 0.0625em solid rgb(213, 217, 217);
     display: flex;
     flex-direction: column;
@@ -60,20 +60,23 @@ export const OrdersMainStyled = styled.main`
     display: grid;
     grid-template-columns: 10rem 1fr;
     gap: 1rem;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: var(--bg-product-container);
   }
 
   .orders-product-image-container {
     max-width: 10rem;
     max-height: 7rem;
-    border-radius: 0.25em;
+    border-radius: 0.5em;
   }
 
   .orders-product-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.25em;
+    border-radius: 0.5em;
   }
 
   .orders-product-name {
@@ -124,7 +127,7 @@ export const OrdersMainStyled = styled.main`
     padding: 0.5em 2em;
     font-size: 0.9375em;
     color: rgb(33, 33, 33);
-    background: var(--white);
+    background: var(--bg-product-container);
     border: 0.0625em solid rgb(213, 217, 217);
     border-radius: 0.5rem;
   }

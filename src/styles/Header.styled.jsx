@@ -19,7 +19,7 @@ export const HeaderStyled = styled.header`
 
   .header-link {
     display: inline-block;
-    border-radius: 0.125em;
+    border-radius: 0.25em;
     padding: 0.25em;
     cursor: pointer;
     color: var(--white);
@@ -42,8 +42,8 @@ export const HeaderStyled = styled.header`
     width: 10%;
     font-size: 1rem;
     height: 2.5rem;
-    padding-left: 1em;
-    border-radius: 0.25em 0 0 0.25em;
+    padding-left: 0.5em;
+    border-radius: 0.25rem 0 0 0.25rem;
   }
 
   .search-button {

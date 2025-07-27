@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
-import { useProducts } from "../contexts/useProducts";
 import {
   HeaderStyled,
   LogoStyled,
   MobileLogoStyled,
 } from "../styles/Header.styled";
 
-function CheckoutHeader() {
-  const { totalQuantity } = useProducts();
+function CheckoutHeader({ totalQuantity, setSearchTerm, setSubmittedSearch }) {
   return (
     <HeaderStyled>
       <div className="header-left-section">
         <Link
           to="/home"
+          onClick={() => {
+            setSubmittedSearch("");
+            setSearchTerm("");
+          }}
           className="header-link"
         >
           <LogoStyled>Riviana Dolce</LogoStyled>

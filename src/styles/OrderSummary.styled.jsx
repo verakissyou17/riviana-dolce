@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const OrderSummaryStyled = styled.div`
   .cart-item-container {
     margin-bottom: 1.5em;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     padding: 1.125rem;
-    border: 1px solid var(--white);
+    border: 1px solid var(--bg-header);
+    background-color: var(--bg-product-container);
   }
 
   .delivery-date {
@@ -26,7 +27,7 @@ export const OrderSummaryStyled = styled.div`
   .checkout-product-image {
     max-height: 8rem;
     margin-right: auto;
-    border-radius: 0.25em;
+    border-radius: 0.5em;
   }
 
   .checkout-product-name {

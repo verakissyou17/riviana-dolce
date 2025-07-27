@@ -3,8 +3,11 @@ import CheckoutMain from "../components/CheckoutMain";
 import Footer from "../components/Footer";
 import { useProducts } from "../contexts/useProducts";
 import { useOrders } from "../contexts/useOrders";
+import { useState } from "react";
 
 function Checkout() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [submittedSearch, setSubmittedSearch] = useState("");
   const {
     products,
     cart,
@@ -18,7 +21,14 @@ function Checkout() {
   const { addOrder } = useOrders();
   return (
     <>
-      <CheckoutHeader totalQuantity={totalQuantity} />
+      <CheckoutHeader
+        totalQuantity={totalQuantity}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        submittedSearch={submittedSearch}
+        onSearchSubmit={() => setSubmittedSearch(searchTerm)}
+        setSubmittedSearch={setSubmittedSearch}
+      />
       <CheckoutMain
         products={products}
         cart={cart}
@@ -36,4 +46,3 @@ function Checkout() {
 }
 
 export default Checkout;
-

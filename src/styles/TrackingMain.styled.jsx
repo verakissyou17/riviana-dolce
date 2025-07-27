@@ -10,9 +10,11 @@ export const TrackingMainStyled = styled.main`
     display: grid;
     grid-template-columns: 1fr 10rem;
     margin-bottom: 1em;
-    border: 1px solid var(--added);
-    border-radius: 1rem;
+    border: 2px solid var(--bg-header);
+    background-color: var(--bg-product-container);
+    border-radius: 0.5rem;
     padding: 1em;
+
   }
 
   .back-to-orders-link {
@@ -33,6 +35,7 @@ export const TrackingMainStyled = styled.main`
   .tracking-product-image {
     width: 10rem;
     height: 10rem;
+    border-radius: 0.5rem;
   }
 
   .progress-labels-container {
