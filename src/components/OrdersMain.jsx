@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { formatPrice } from "../utils/formatPrice";
 import dayjs from "dayjs";
+import "dayjs/locale/ro";
+dayjs.locale("ro")
 import { OrdersMainStyled } from "../styles/OrdersMain.styled";
 
 function OrdersMain({ matchingOrders }) {
@@ -19,7 +21,7 @@ function OrdersMain({ matchingOrders }) {
                   <div className="order-date">
                     <div className="order-header-label">Data comanda:</div>
                     <div>
-                      {dayjs(matchingOrder.orderTime).format("ddd,  MMMM D")}
+                      {dayjs(matchingOrder.orderTime).format("dddd,  MMMM D")}
                     </div>
                   </div>
                   <div className="order-total">
@@ -57,7 +59,7 @@ function OrdersMain({ matchingOrders }) {
                         Data sosire:{" "}
                         {dayjs(
                           matchingOrder.products[index].estimatedDeliveryTime
-                        ).format("ddd, MMMM D")}
+                        ).format("dddd, MMMM D")}
                       </div>
                       <div className="orders-product-quantity">
                         Cantitate: {item.quantity}

@@ -7,7 +7,8 @@ function PageBanner() {
       <div className="hero--section">
         {" "}
         <h2>
-          The most <span>delicious</span> cakes on the planet or even more.
+          Delicii rafinate,<span> inspirate din pasiune </span> si drag de
+          gustul bun.
         </h2>
       </div>
     </PageBannerStyled>

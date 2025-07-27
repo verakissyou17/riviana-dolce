@@ -1,4 +1,6 @@
 import dayjs from "dayjs";
+import "dayjs/locale/ro";
+dayjs.locale("ro");
 import { formatPrice } from "../utils/formatPrice";
 import { deliveryOptions } from "../data/deliveryOptions";
 import { QuantityContainer } from "../styles/Main.styled";
@@ -33,7 +35,7 @@ function OrderSummary({
                 >
                   {dayjs()
                     .add(Number(option.deliveryDays), "day")
-                    .format("ddd, MMMM D")}
+                    .format("dddd, MMMM D")}
                 </div>
               ) : null
             )}

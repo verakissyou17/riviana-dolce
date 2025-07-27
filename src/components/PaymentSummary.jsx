@@ -2,6 +2,8 @@ import { useOrders } from "../contexts/useOrders";
 import { formatPrice } from "../utils/formatPrice";
 import { useNavigate } from "react-router-dom";
 import dayjs from "dayjs";
+import "dayjs/locale/ro";
+dayjs.locale("ro");
 import { getDeliveryOptionById } from "../utils/getDeliveryOption";
 import { PaymentSummaryStyled } from "../styles/PaymentSummary.styled";
 import { deliveryOptions } from "../data/deliveryOptions";
@@ -85,7 +87,7 @@ function PaymentSummary({
                   <span className="delivery-option-date">
                     {dayjs()
                       .add(Number(option.deliveryDays), "day")
-                      .format("ddd, MMMM D")}
+                      .format("dddd, MMMM D")}
                   </span>
                   <span className="delivery-option-price">
                     {formatPrice(option.priceCents.toFixed(2))}lei

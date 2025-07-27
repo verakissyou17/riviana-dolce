@@ -1,33 +1,33 @@
 [
   {
-    "id": "e7b6d2c1-1a2b-4e8a-8e7c-1f2e3d4c5b6a",
-    "image": "/images/products/chocolate-fudge-cake.webp",
-    "name": "Tort cu ciocolata",
-    "priceCents": 750
-  },
-  {
-    "id": "a3f2b1c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
-    "image": "/images/products/red-velvet-cake.webp",
-    "name": "Tort Red Velvet",
-    "priceCents": 850
-  },
-  {
-    "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
-    "image": "/images/products/vanilla-sponge-cake.webp",
-    "name": "Tort cu blat de vanilie",
+    "id": "b5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d0f",
+    "image": "/images/products/angel-food-cake.webp",
+    "name": "Tort Angel Food",
     "priceCents": 650
   },
-  {
-    "id": "c4d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9f",
-    "image": "/images/products/black-forest-cake.webp",
-    "name": "Tort Padurea Neagra",
-    "priceCents": 900
+    {
+    "id": "f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8e",
+    "image": "/images/products/mille-crepe-cake.webp",
+    "name": "Tort Mille Crepe",
+    "priceCents": 1200
+  },
+    {
+    "id": "b7c8d9e0-f1a2-3b4c-5d6e-7f8a9b0c1d2f",
+    "image": "/images/products/mango-mousse-cake.webp",
+    "name": "Tort mousse de mango",
+    "priceCents": 1000
+  },
+    {
+    "id": "a6b7c8d9-e0f1-2a3b-4c5d-6e7f8a9b0c1e",
+    "image": "/images/products/ube-cake.webp",
+    "name": "Tort cu yam mov (Ube)",
+    "priceCents": 1050
   },
   {
-    "id": "d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0b",
-    "image": "/images/products/lemon-drizzle-cake.webp",
-    "name": "Tort cu lamaie",
-    "priceCents": 700
+    "id": "c6d7e8f9-a0b1-2c3d-4e5f-6a7b8c9d0e2f",
+    "image": "/images/products/matcha-cake.webp",
+    "name": "Tort cu ceai verde Matcha",
+    "priceCents": 1000
   },
   {
     "id": "e6f7a8b9-c0d1-2e3f-4a5b-6c7d8e9f0a1c",
@@ -40,6 +40,36 @@
     "image": "/images/products/cheesecake.webp",
     "name": "Cheesecake clasic",
     "priceCents": 950
+  },
+  {
+    "id": "a1c2d3e4-f5g6-7h8i-9j10-k11l12m13n14",
+    "image": "/images/products/vanilla-berry-cake.webp",
+    "name": "Tort cu vanilie și fructe de pădure",
+    "priceCents": 790
+  },
+  {
+    "id": "a3f2b1c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+    "image": "/images/products/red-velvet-cake.webp",
+    "name": "Tort Red Velvet",
+    "priceCents": 850
+  },
+    {
+    "id": "d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2c",
+    "image": "/images/products/mousse.webp",
+    "name": "Mousse de ciocolata",
+    "priceCents": 1450
+  },
+  {
+    "id": "e8f9a0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3d",
+    "image": "/images/products/cupcake.webp",
+    "name": "Briose cu vanilie",
+    "priceCents": 300
+  },
+  {
+    "id": "d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0b",
+    "image": "/images/products/lemon-drizzle-cake.webp",
+    "name": "Tort cu lamaie",
+    "priceCents": 700
   },
   {
     "id": "a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3e",
@@ -82,18 +112,6 @@
     "image": "/images/products/pineapple-upside-down-cake.webp",
     "name": "Tort cu ananas",
     "priceCents": 850
-  },
-  {
-    "id": "b5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d0f",
-    "image": "/images/products/angel-food-cake.webp",
-    "name": "Tort Angel Food",
-    "priceCents": 650
-  },
-  {
-    "id": "c6d7e8f9-a0b1-2c3d-4e5f-6a7b8c9d0e2f",
-    "image": "/images/products/matcha-cake.webp",
-    "name": "Tort cu ceai verde Matcha",
-    "priceCents": 1000
   },
   {
     "id": "d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2b",
@@ -149,17 +167,11 @@
     "name": "Tort cu susan negru",
     "priceCents": 1000
   },
-  {
-    "id": "a6b7c8d9-e0f1-2a3b-4c5d-6e7f8a9b0c1e",
-    "image": "/images/products/ube-cake.webp",
-    "name": "Tort cu yam mov (Ube)",
-    "priceCents": 1050
-  },
-  {
-    "id": "b7c8d9e0-f1a2-3b4c-5d6e-7f8a9b0c1d2f",
-    "image": "/images/products/mango-mousse-cake.webp",
-    "name": "Tort mousse de mango",
-    "priceCents": 1000
+    {
+    "id": "c4d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9f",
+    "image": "/images/products/black-forest-cake.webp",
+    "name": "Tort Padurea Neagra",
+    "priceCents": 900
   },
   {
     "id": "c8d9e0f1-a2b3-4c5d-6e7f-8a9b0c1d2e4f",
@@ -252,12 +264,6 @@
     "priceCents": 900
   },
   {
-    "id": "f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8e",
-    "image": "/images/products/mille-crepe-cake.webp",
-    "name": "Tort Mille Crepe",
-    "priceCents": 1200
-  },
-  {
     "id": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9f",
     "image": "/images/products/saffron-cake.webp",
     "name": "Tort cu sofran",
@@ -275,16 +281,16 @@
     "name": "Tarta cu lamaie",
     "priceCents": 950
   },
-  {
-    "id": "d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2c",
-    "image": "/images/products/mousse.webp",
-    "name": "Mousse de ciocolata",
-    "priceCents": 1450
+    {
+    "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    "image": "/images/products/vanilla-sponge-cake.webp",
+    "name": "Tort cu blat de vanilie",
+    "priceCents": 650
   },
-  {
-    "id": "e8f9a0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3d",
-    "image": "/images/products/cupcake.webp",
-    "name": "Briose cu vanilie",
-    "priceCents": 300
+    {
+    "id": "e7b6d2c1-1a2b-4e8a-8e7c-1f2e3d4c5b6a",
+    "image": "/images/products/chocolate-fudge-cake.webp",
+    "name": "Tort cu ciocolata",
+    "priceCents": 750
   }
 ]

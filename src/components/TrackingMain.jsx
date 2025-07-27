@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import dayjs from "dayjs";
+import "dayjs/locale/ro";
+dayjs.locale("ro");
 import { TrackingMainStyled } from "../styles/TrackingMain.styled";
 
 function TrackingMain({ matchingOrders }) {
@@ -36,7 +38,7 @@ function TrackingMain({ matchingOrders }) {
                     <div className="tracking-delivery-date">
                       Data sosire:{" "}
                       {dayjs(order.products[i].estimatedDeliveryTime).format(
-                        "ddd, MMMM D"
+                        "dddd, MMMM D"
                       )}
                     </div>
 
