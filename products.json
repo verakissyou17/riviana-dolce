@@ -1,289 +1,289 @@
 [
   {
     "id": "e7b6d2c1-1a2b-4e8a-8e7c-1f2e3d4c5b6a",
-    "image": "/bakery-project/images/products/chocolate-fudge-cake.webp",
+    "image": "/riviana-dolce/images/products/chocolate-fudge-cake.webp",
     "name": "Tort cu ciocolata",
     "priceCents": 750
   },
   {
     "id": "a3f2b1c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
-    "image": "/bakery-project/images/products/red-velvet-cake.webp",
+    "image": "/riviana-dolce/images/products/red-velvet-cake.webp",
     "name": "Tort Red Velvet",
     "priceCents": 850
   },
   {
     "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
-    "image": "/bakery-project/images/products/vanilla-sponge-cake.webp",
+    "image": "/riviana-dolce/images/products/vanilla-sponge-cake.webp",
     "name": "Tort cu blat de vanilie",
     "priceCents": 650
   },
   {
     "id": "c4d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9f",
-    "image": "/bakery-project/images/products/black-forest-cake.webp",
+    "image": "/riviana-dolce/images/products/black-forest-cake.webp",
     "name": "Tort Padurea Neagra",
     "priceCents": 900
   },
   {
     "id": "d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0b",
-    "image": "/bakery-project/images/products/lemon-drizzle-cake.webp",
+    "image": "/riviana-dolce/images/products/lemon-drizzle-cake.webp",
     "name": "Tort cu lamaie",
     "priceCents": 700
   },
   {
     "id": "e6f7a8b9-c0d1-2e3f-4a5b-6c7d8e9f0a1c",
-    "image": "/bakery-project/images/products/carrot-cake.webp",
+    "image": "/riviana-dolce/images/products/carrot-cake.webp",
     "name": "Tort cu morcovi",
     "priceCents": 800
   },
   {
     "id": "f7a8b9c0-d1e2-3f4a-5b6c-7d8e9f0a1b2d",
-    "image": "/bakery-project/images/products/cheesecake.webp",
+    "image": "/riviana-dolce/images/products/cheesecake.webp",
     "name": "Cheesecake clasic",
     "priceCents": 950
   },
   {
     "id": "a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3e",
-    "image": "/bakery-project/images/products/cinnamon-roll.webp",
+    "image": "/riviana-dolce/images/products/cinnamon-roll.webp",
     "name": "Rulada cu scortisoara",
     "priceCents": 750
   },
   {
     "id": "b9c0d1e2-f3a4-5b6c-7d8e-9f0a1b2c3d4f",
-    "image": "/bakery-project/images/products/fruit-cake.webp",
+    "image": "/riviana-dolce/images/products/fruit-cake.webp",
     "name": "Tort cu fructe",
     "priceCents": 900
   },
   {
     "id": "c0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5g",
-    "image": "/bakery-project/images/products/oreo-cake.webp",
+    "image": "/riviana-dolce/images/products/oreo-cake.webp",
     "name": "Tort cu biscuiti Oreo",
     "priceCents": 850
   },
   {
     "id": "d1e2f3a4-b5c6-7d8e-9f0a-1b2c3d4e5f6b",
-    "image": "/bakery-project/images/products/raspberry-mousse-cake.webp",
+    "image": "/riviana-dolce/images/products/raspberry-mousse-cake.webp",
     "name": "Tort mousse de zmeura",
     "priceCents": 1000
   },
   {
     "id": "e2f3a4b5-c6d7-8e9f-0a1b-2c3d4e5f6a7c",
-    "image": "/bakery-project/images/products/tiramisu-cake.webp",
+    "image": "/riviana-dolce/images/products/tiramisu-cake.webp",
     "name": "Tort Tiramisu",
     "priceCents": 1050
   },
   {
     "id": "f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8d",
-    "image": "/bakery-project/images/products/banana-cake.webp",
+    "image": "/riviana-dolce/images/products/banana-cake.webp",
     "name": "Tort cu banane",
     "priceCents": 700
   },
   {
     "id": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9e",
-    "image": "/bakery-project/images/products/pineapple-upside-down-cake.webp",
+    "image": "/riviana-dolce/images/products/pineapple-upside-down-cake.webp",
     "name": "Tort cu ananas",
     "priceCents": 850
   },
   {
     "id": "b5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d0f",
-    "image": "/bakery-project/images/products/angel-food-cake.webp",
+    "image": "/riviana-dolce/images/products/angel-food-cake.webp",
     "name": "Tort Angel Food",
     "priceCents": 650
   },
   {
     "id": "c6d7e8f9-a0b1-2c3d-4e5f-6a7b8c9d0e2f",
-    "image": "/bakery-project/images/products/matcha-cake.webp",
+    "image": "/riviana-dolce/images/products/matcha-cake.webp",
     "name": "Tort cu ceai verde Matcha",
     "priceCents": 1000
   },
   {
     "id": "d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2b",
-    "image": "/bakery-project/images/products/blueberry-cheesecake.webp",
+    "image": "/riviana-dolce/images/products/blueberry-cheesecake.webp",
     "name": "Cheesecake cu afine",
     "priceCents": 950
   },
   {
     "id": "e8f9a0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3c",
-    "image": "/bakery-project/images/products/boston-cream-pie.webp",
+    "image": "/riviana-dolce/images/products/boston-cream-pie.webp",
     "name": "Tort Boston Cream",
     "priceCents": 900
   },
   {
     "id": "f9a0b1c2-d3e4-5f6a-7b8c-9d0e1f2a3b4d",
-    "image": "/bakery-project/images/products/almond-cake.webp",
+    "image": "/riviana-dolce/images/products/almond-cake.webp",
     "name": "Tort cu migdale",
     "priceCents": 800
   },
   {
     "id": "a0b1c2d3-e4f5-6a7b-8c9d-0e1f2a3b4c5e",
-    "image": "/bakery-project/images/products/white-chocolate-raspberry-cake.webp",
+    "image": "/riviana-dolce/images/products/white-chocolate-raspberry-cake.webp",
     "name": "Tort cu ciocolata alba si zmeura",
     "priceCents": 1050
   },
   {
     "id": "b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6f",
-    "image": "/bakery-project/images/products/coconut-cake.webp",
+    "image": "/riviana-dolce/images/products/coconut-cake.webp",
     "name": "Tort cu cocos",
     "priceCents": 850
   },
   {
     "id": "c2d3e4f5-a6b7-8c9d-0e1f-2a3b4c5d6e8f",
-    "image": "/bakery-project/images/products/peanut-butter-cake.webp",
+    "image": "/riviana-dolce/images/products/peanut-butter-cake.webp",
     "name": "Tort cu unt de arahide",
     "priceCents": 800
   },
   {
     "id": "d3e4f5a6-b7c8-9d0e-1f2a-3b4c5d6e7f8b",
-    "image": "/bakery-project/images/products/white-forest-cake.webp",
+    "image": "/riviana-dolce/images/products/white-forest-cake.webp",
     "name": "Tort Padurea Alba",
     "priceCents": 900
   },
   {
     "id": "e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9c",
-    "image": "/bakery-project/images/products/blueberry-lemon-cake.webp",
+    "image": "/riviana-dolce/images/products/blueberry-lemon-cake.webp",
     "name": "Tort cu afine si lamaie",
     "priceCents": 850
   },
   {
     "id": "f5a6b7c8-d9e0-1f2a-3b4c-5d6e7f8a9b0d",
-    "image": "/bakery-project/images/products/black-sesame-cake.webp",
+    "image": "/riviana-dolce/images/products/black-sesame-cake.webp",
     "name": "Tort cu susan negru",
     "priceCents": 1000
   },
   {
     "id": "a6b7c8d9-e0f1-2a3b-4c5d-6e7f8a9b0c1e",
-    "image": "/bakery-project/images/products/ube-cake.webp",
+    "image": "/riviana-dolce/images/products/ube-cake.webp",
     "name": "Tort cu yam mov (Ube)",
     "priceCents": 1050
   },
   {
     "id": "b7c8d9e0-f1a2-3b4c-5d6e-7f8a9b0c1d2f",
-    "image": "/bakery-project/images/products/mango-mousse-cake.webp",
+    "image": "/riviana-dolce/images/products/mango-mousse-cake.webp",
     "name": "Tort mousse de mango",
     "priceCents": 1000
   },
   {
     "id": "c8d9e0f1-a2b3-4c5d-6e7f-8a9b0c1d2e4f",
-    "image": "/bakery-project/images/products/pecan-pie-cake.webp",
+    "image": "/riviana-dolce/images/products/pecan-pie-cake.webp",
     "name": "Tort cu nuci pecan",
     "priceCents": 900
   },
   {
     "id": "d9e0f1a2-b3c4-5d6e-7f8a-9b0c1d2e3f4b",
-    "image": "/bakery-project/images/products/swiss-roll-cake.webp",
+    "image": "/riviana-dolce/images/products/swiss-roll-cake.webp",
     "name": "Ruladă elvetiana",
     "priceCents": 600
   },
   {
     "id": "e0f1a2b3-c4d5-6e7f-8a9b-0c1d2e3f4a5c",
-    "image": "/bakery-project/images/products/napoleon-cake.webp",
+    "image": "/riviana-dolce/images/products/napoleon-cake.webp",
     "name": "Tort Napoleon",
     "priceCents": 1100
   },
   {
     "id": "f1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6d",
-    "image": "/bakery-project/images/products/opera-cake.webp",
+    "image": "/riviana-dolce/images/products/opera-cake.webp",
     "name": "Tort Opera",
     "priceCents": 1150
   },
   {
     "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7e",
-    "image": "/bakery-project/images/products/pistachio-cake.webp",
+    "image": "/riviana-dolce/images/products/pistachio-cake.webp",
     "name": "Tort cu fistic",
     "priceCents": 1000
   },
   {
     "id": "b3c4d5e6-f7a8-9b0c-1d2e-3f4a5b6c7d9f",
-    "image": "/bakery-project/images/products/blackberry-cake.webp",
+    "image": "/riviana-dolce/images/products/blackberry-cake.webp",
     "name": "Tort cu mure",
     "priceCents": 850
   },
   {
     "id": "c4d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9g",
-    "image": "/bakery-project/images/products/guinness-chocolate-cake.webp",
+    "image": "/riviana-dolce/images/products/guinness-chocolate-cake.webp",
     "name": "Tort cu ciocolata Guinness",
     "priceCents": 950
   },
   {
     "id": "d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0c",
-    "image": "/bakery-project/images/products/peach-cobbler-cake.webp",
+    "image": "/riviana-dolce/images/products/peach-cobbler-cake.webp",
     "name": "Tort cu piersici",
     "priceCents": 800
   },
   {
     "id": "e6f7a8b9-c0d1-2e3f-4a5b-6c7d8e9f0a1d",
-    "image": "/bakery-project/images/products/cranberry-orange-cake.webp",
+    "image": "/riviana-dolce/images/products/cranberry-orange-cake.webp",
     "name": "Tort cu merisoare și portocale",
     "priceCents": 850
   },
   {
     "id": "f7a8b9c0-d1e2-3f4a-5b6c-7d8e9f0a1b2e",
-    "image": "/bakery-project/images/products/ricotta-cake.webp",
+    "image": "/riviana-dolce/images/products/ricotta-cake.webp",
     "name": "Tort cu ricotta italiana",
     "priceCents": 900
   },
   {
     "id": "a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3f",
-    "image": "/bakery-project/images/products/gingerbread-cake.webp",
+    "image": "/riviana-dolce/images/products/gingerbread-cake.webp",
     "name": "Tort cu turta dulce",
     "priceCents": 700
   },
   {
     "id": "b9c0d1e2-f3a4-5b6c-7d8e-9f0a1b2c3d4g",
-    "image": "/bakery-project/images/products/marble-cake.webp",
+    "image": "/riviana-dolce/images/products/marble-cake.webp",
     "name": "Tort marmorat",
     "priceCents": 750
   },
   {
     "id": "c0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5h",
-    "image": "/bakery-project/images/products/rum-cake.webp",
+    "image": "/riviana-dolce/images/products/rum-cake.webp",
     "name": "Tort cu rom caraibian",
     "priceCents": 1000
   },
   {
     "id": "d1e2f3a4-b5c6-7d8e-9f0a-1b2c3d4e5f6c",
-    "image": "/bakery-project/images/products/pumpkin-spice-cake.webp",
+    "image": "/riviana-dolce/images/products/pumpkin-spice-cake.webp",
     "name": "Tort cu dovleac si condimente",
     "priceCents": 850
   },
   {
     "id": "e2f3a4b5-c6d7-8e9f-0a1b-2c3d4e5f6a7d",
-    "image": "/bakery-project/images/products/strawberry-shortcake.webp",
+    "image": "/riviana-dolce/images/products/strawberry-shortcake.webp",
     "name": "Tort cu capsuni",
     "priceCents": 900
   },
   {
     "id": "f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f6a7b8e",
-    "image": "/bakery-project/images/products/mille-crepe-cake.webp",
+    "image": "/riviana-dolce/images/products/mille-crepe-cake.webp",
     "name": "Tort Mille Crepe",
     "priceCents": 1200
   },
   {
     "id": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9f",
-    "image": "/bakery-project/images/products/saffron-cake.webp",
+    "image": "/riviana-dolce/images/products/saffron-cake.webp",
     "name": "Tort cu sofran",
     "priceCents": 1250
   },
   {
     "id": "b5c6d7e8-f9a0-1b2c-3d4e-5f6a7b8c9d1f",
-    "image": "/bakery-project/images/products/macarons.webp",
+    "image": "/riviana-dolce/images/products/macarons.webp",
     "name": "Macarons asortate",
     "priceCents": 3950
   },
   {
     "id": "c6d7e8f9-a0b1-2c3d-4e5f-6a7b8c9d0e3f",
-    "image": "/bakery-project/images/products/lemon-tart.webp",
+    "image": "/riviana-dolce/images/products/lemon-tart.webp",
     "name": "Tarta cu lamaie",
     "priceCents": 950
   },
   {
     "id": "d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2c",
-    "image": "/bakery-project/images/products/mousse.webp",
+    "image": "/riviana-dolce/images/products/mousse.webp",
     "name": "Mousse de ciocolata",
     "priceCents": 1450
   },
   {
     "id": "e8f9a0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3d",
-    "image": "/bakery-project/images/products/cupcake.webp",
+    "image": "/riviana-dolce/images/products/cupcake.webp",
     "name": "Briose cu vanilie",
     "priceCents": 300
   }
