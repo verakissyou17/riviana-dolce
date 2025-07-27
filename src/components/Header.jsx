@@ -5,7 +5,13 @@ import {
   MobileLogoStyled,
 } from "../styles/Header.styled";
 
-function Header({ totalQuantity, searchTerm, setSearchTerm, onSearchSubmit }) {
+function Header({
+  totalQuantity,
+  searchTerm,
+  setSearchTerm,
+  onSearchSubmit,
+  setSubmittedSearch,
+}) {
   const handleSearch = (e) => {
     e.preventDefault();
     onSearchSubmit(searchTerm.trim());
@@ -14,7 +20,13 @@ function Header({ totalQuantity, searchTerm, setSearchTerm, onSearchSubmit }) {
   return (
     <HeaderStyled>
       <div className="header-left-section">
-        <Link to="/home">
+        <Link
+          to="/home"
+          onClick={() => {
+            setSubmittedSearch("");
+            setSearchTerm("");
+          }}
+        >
           <LogoStyled>Riviana Dolce</LogoStyled>
           <MobileLogoStyled>Riviana Dolce</MobileLogoStyled>
         </Link>

@@ -20,6 +20,8 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
     }
   }, [orderedId]);
 
+
+
   function incrementQuantity(productId) {
     setQuantities((prev) => ({
       ...prev,
@@ -60,7 +62,6 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
           </section>
         </div>
       )}
-      <div className="products-container">
         {products.length === 0 ? (
           <p>No products match your search.</p>
         ) : (
@@ -69,7 +70,7 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
             return (
               <div
                 id={`product-${product.id}`}
-                className="product-container"
+                className={`product-container ${products.length === 1 ? "single-product" : ""}`}
                 key={product.id}
               >
                 <div className="product-image-container">
@@ -118,7 +119,7 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
             );
           })
         )}
-      </div>
+
     </MainStyled>
   );
 }

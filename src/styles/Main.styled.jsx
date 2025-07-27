@@ -1,28 +1,27 @@
 import styled from "styled-components";
 
 export const MainStyled = styled.main`
-  margin-top: calc(var(--header-height) + 1vh);
-
-  .products-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 18.75em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14.375rem, 1fr));
     gap: 2rem;
-    margin: 2em auto;
     padding: 1em;
+    width: 100%;
+    max-width: 1400px;
+    margin: 1em auto;
+
+  .product-container.single-product {
+    max-width: 250px;
+    border: 2px dotted var(--bg-header);
+    border-radius: 1rem;
   }
 
   .product-container {
-    flex: 1 1 15em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--bg-product-container);
     border-radius: 1rem;
     box-shadow: 0.125em 0.125em 0.3125em rgba(82, 82, 82, 0.25);
+    background-color: var(--bg-product-container);
   }
 
   .product-image-container {
@@ -60,24 +59,7 @@ export const MainStyled = styled.main`
 
   .highlight {
     border: 3px solid var(--bg-header);
-    border-radius: 12px;
     transition: border 0.3s ease;
-  }
-
-  @media (min-width: 50em) {
-    .products-container {
-      max-width: 35em;
-    }
-  }
-
-  @media (min-width: 65em) {
-    .product-container.filtred {
-      max-width: 40%;
-    }
-
-    .products-container {
-      max-width: 70em;
-    }
   }
 `;
 

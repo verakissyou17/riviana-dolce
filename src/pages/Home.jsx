@@ -29,6 +29,7 @@ function Home() {
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         onSearchSubmit={() => setSubmittedSearch(searchTerm)}
+         setSubmittedSearch={ setSubmittedSearch}
       />
       <HomeMain
         products={filteredProducts}

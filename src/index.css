@@ -1,9 +1,9 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
-  --bg: hsla(23, 27%, 67%, 0.858);
-  --bg-header: hsl(302, 40%, 33%);
-  --bg-product-container: hsl(0, 2%, 81%);
+  --bg: hsl(108, 64%, 89%);
+  --bg-header: hsl(302, 28%, 51%);
+  --bg-product-container: hsl(52, 68%, 91%);
   --border-line: hsla(0, 0%, 0%, 0.2);
   --link-primary: hsla(199, 99%, 36%, 0.75);
   --link-primary-hover: hsl(24, 100%, 38%);
@@ -31,6 +31,7 @@ html {
 body {
   background-color: var(--bg);
   font-family: "Cookie", cursive, system-ui;
+
 }
 
 h1,
