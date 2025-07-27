@@ -1,39 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Checkout from "./pages/Checkout";
-import Orders from "./pages/Orders";
-import Tracking from "./pages/Tracking";
-
 function App() {
   return (
     <Routes>
       <Route
         path="/"
-        element={<Home />}
-      />
-      <Route
-        path="/home/:orderedId"
-        element={<Home />}
+        element={<h1>hello from react</h1>}
       />
       <Route
         path="/home"
-        element={<Home />}
-      />
-      <Route
-        path="/checkout"
-        element={<Checkout />}
-      />
-      <Route
-        path="/orders"
-        element={<Orders />}
-      />
-      <Route
-        path="/tracking/:orderId"
-        element={<Tracking />}
+        element={<h1>hello from react</h1>}
       />
     </Routes>
   );
 }
 
 export default App;
-
