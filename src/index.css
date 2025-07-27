@@ -26,16 +26,23 @@
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   background-color: var(--bg);
   background-image: url("/riviana-dolce/images/swirl-corners.webp"),
     url("/riviana-dolce/images/swirl-corners-2.webp");
   background-size: 8em, 8em;
   background-repeat: no-repeat, no-repeat;
-  background-position: top var(--header-height) right -1.25em,
-    bottom left -1.25em;
+  background-position:
+    right -1.25em top var(--header-height),
+    left -1.25em bottom;
   font-family: "Cookie", cursive, system-ui;
 }
 
