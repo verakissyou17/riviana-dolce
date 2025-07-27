@@ -48,9 +48,9 @@ export const MainStyled = styled.main`
   }
 
   .product-name h1 {
-    font-family: "Cookie", cursive, system-ui;
+     font-family: "Merienda", cursive;
     font-size: clamp(1rem, 0.648rem + 1.502vw, 2.5rem);
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1;
     margin-bottom: 1em;
   }

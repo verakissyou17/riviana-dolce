@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
   background-color: var(--bg-header);
+  font-family: "Dancing Script", cursive;
   color: var(--white);
   padding: 0.5em;
   display: flex;

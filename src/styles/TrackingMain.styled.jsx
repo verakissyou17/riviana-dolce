@@ -5,6 +5,7 @@ export const TrackingMainStyled = styled.main`
   margin-top: calc(var(--header-height) + 5vh);
   padding: 1.5em;
   margin-inline: auto;
+  font-family: "Merienda", cursive;
 
   .tracking-product {
     display: grid;

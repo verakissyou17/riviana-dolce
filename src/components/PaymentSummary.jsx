@@ -8,6 +8,7 @@ import { getDeliveryOptionById } from "../utils/getDeliveryOption";
 import { PaymentSummaryStyled } from "../styles/PaymentSummary.styled";
 import { deliveryOptions } from "../data/deliveryOptions";
 import { FormStyled } from "../styles/Form.styled";
+import { useState } from "react";
 
 function PaymentSummary({
   totalQuantity,
@@ -19,6 +20,21 @@ function PaymentSummary({
 }) {
   const { addOrder } = useOrders();
   const navigate = useNavigate();
+  const [userData, setUserData] = useState({
+    name: "",
+    surname: "",
+    email: "",
+    phone: "",
+    address: {
+      street: "",
+      number: "",
+      building: "",
+      stairwell: "",
+      apartment: "",
+      floor: "",
+      city: "",
+    },
+  });
 
   const selectedDeliveryOption = getDeliveryOptionById(
     selectedDeliveryOptionId
@@ -34,13 +50,14 @@ function PaymentSummary({
 
   function handlePlaceOrder() {
     const orderId = crypto.randomUUID();
-    if (cart.length === 0) return;
+    if (cart.length === 0 && userData.length === 0) return;
 
     try {
       const deliveryDays = selectedDeliveryOption?.deliveryDays;
       const order = {
         id: orderId,
         orderTime: dayjs().toISOString(),
+        user: userData,
         products: cart.map((cartItem) => ({
           productId: cartItem.productId,
           quantity: cartItem.quantity,
@@ -60,6 +77,29 @@ function PaymentSummary({
       console.error("Unexpected error. Try again later.", err);
     }
   }
+
+function handleInputChange(e) {
+  const { name, value } = e.target;
+
+  if (
+    ["street", "number", "building", "stairwell", "apartment", "floor", "city"].includes(name)
+  ) {
+    setUserData((prevData) => ({
+      ...prevData,
+      address: {
+        ...prevData.address,
+        [name]: value,
+      },
+    }));
+  } else {
+    setUserData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  }
+}
+
+
 
   return (
     <PaymentSummaryStyled>
@@ -104,12 +144,14 @@ function PaymentSummary({
               type="text"
               name="name"
               id="name"
+              onChange={handleInputChange}
             />
             <label htmlFor="surname">Prenume</label>
             <input
               type="text"
               name="surname"
               id="surname"
+              onChange={handleInputChange}
             />
           </div>
           <div className="user-form-group">
@@ -118,18 +160,21 @@ function PaymentSummary({
               type="email"
               name="email"
               id="email"
+              onChange={handleInputChange}
             />
             <label htmlFor="phone">Telefon</label>
             <input
               type="tel"
               name="phone"
               id="phone"
+              onChange={handleInputChange}
             />
           </div>
           <div className="user-form-group">
             <label
               htmlFor="street"
               className="for"
+              onChange={handleInputChange}
             >
               Strada
             </label>
@@ -137,38 +182,51 @@ function PaymentSummary({
               type="text"
               name="street"
               id="street"
+              onChange={handleInputChange}
             />
             <label htmlFor="number">Nr.</label>
             <input
               type="text"
               name="number"
               id="number"
+              onChange={handleInputChange}
             />
           </div>
           <div className="user-form-group">
             <label htmlFor="block">Bloc</label>
             <input
               type="text"
-              name="block"
+              name="building"
               id="block"
+              onChange={handleInputChange}
             />
             <label htmlFor="stair">Scara</label>
             <input
               type="text"
-              name="stair"
+              name="stairwell"
               id="stair"
+              onChange={handleInputChange}
             />
             <label htmlFor="apart">Apartament</label>
             <input
               type="text"
-              name="apart"
+              name="apartment"
               id="apart"
+              onChange={handleInputChange}
             />
             <label htmlFor="floor">Etaj</label>
             <input
               type="text"
               name="floor"
               id="floor"
+              onChange={handleInputChange}
+            />
+            <label htmlFor="city">Oras</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              onChange={handleInputChange}
             />
           </div>
         </div>
@@ -210,7 +268,7 @@ function PaymentSummary({
           onClick={handlePlaceOrder}
           className="place-order-button button-primary"
         >
-          Plaseaza comanda
+          Plasează comanda
         </button>
       </div>
     </PaymentSummaryStyled>

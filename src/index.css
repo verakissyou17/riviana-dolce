@@ -30,8 +30,6 @@ html {
 
 body {
   background-color: var(--bg);
-  font-family: "Cookie", cursive, system-ui;
-
 }
 
 h1,
@@ -40,6 +38,7 @@ h3,
 p {
   line-height: 1.2;
   min-height: 1.2em;
+   font-family: "Merienda", cursive;
 }
 
 img,
@@ -51,6 +50,7 @@ svg {
 
 a {
   text-decoration: none;
+  font-family: "Dancing Script", cursive;
 }
 
 input,
@@ -58,7 +58,7 @@ button {
   cursor: pointer;
   outline: none;
   border: none;
-  font-family: "Cookie", cursive, system-ui;
+  font-family: "Dancing Script", cursive;
 }
 
 .primary-btn {

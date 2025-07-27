@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const PaymentSummaryStyled = styled.div`
+     font-family: "Merienda", cursive;
+
   .payment-summary {
     border-radius: 0.5rem;
     padding: 1em;
@@ -22,7 +24,6 @@ export const PaymentSummaryStyled = styled.div`
 
   .payment-summary-money {
     text-align: right;
-    font-family: "Nunito Sans", sans-serif;
   }
 
   .subtotal-row div {

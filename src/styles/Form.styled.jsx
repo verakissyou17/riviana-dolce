@@ -20,6 +20,7 @@ export const FormStyled = styled.form`
   .delivery-option,
   .delivery-options-details {
     display: flex;
+    align-items: flex-start;
     gap: 0.5rem;
   }
 

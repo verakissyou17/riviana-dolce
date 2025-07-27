@@ -5,5 +5,5 @@ export const FooterStyled = styled.footer`
   margin-block: 1em;
   text-align: center;
   min-height: 1.2em;
-  font-family: "Cookie", cursive, system-ui;
+  font-family: "Dancing Script", cursive;
 `;

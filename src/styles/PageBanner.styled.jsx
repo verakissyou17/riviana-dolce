@@ -40,7 +40,7 @@ export const PageBannerStyled = styled.section`
   }
 
   .hero--section h2 span {
-    color: var(--bg-header);
+    color: rgb(97, 3, 94);
     font-style: italic;
   }
 

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const OrdersMainStyled = styled.main`
   max-width: 53.125em;
   margin-top: calc(var(--header-height) + 5vh);
+  font-family: "Merienda", cursive;
   padding-top: 0.5em;
   margin-inline: auto;
 
@@ -95,7 +96,7 @@ export const OrdersMainStyled = styled.main`
   .buy-again-button {
     font-size: 0.9375em;
     text-decoration: none;
-    font-family: "Cookie", cursive, system-ui;
+    font-family: "Dancing Script", cursive;
     font-weight: 400;
     width: 8.75em;
     height: 2.25em;
