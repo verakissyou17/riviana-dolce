@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useProducts } from "../contexts/useProducts";
 import {
   HeaderStyled,
   LogoStyled,
@@ -6,11 +7,12 @@ import {
 } from "../styles/Header.styled";
 
 function CheckoutHeader() {
+  const { totalQuantity } = useProducts();
   return (
     <HeaderStyled>
       <div className="header-left-section">
         <Link
-          to="/"
+          to="/home"
           className="header-link"
         >
           <LogoStyled>Riviana Dolce</LogoStyled>
@@ -18,7 +20,7 @@ function CheckoutHeader() {
         </Link>
       </div>
       <div className="header-middle-section total-quantity-checkout header-link">
-        Produse (3)
+        Produse ({totalQuantity})
       </div>
       <div className="header-right-section checkout-right-section">
         <Link
@@ -31,7 +33,7 @@ function CheckoutHeader() {
         </Link>
       </div>
     </HeaderStyled>
-  )
+  );
 }
 
-export default CheckoutHeader
+export default CheckoutHeader;

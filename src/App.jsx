@@ -12,6 +12,14 @@ function App() {
         element={<Home />}
       />
       <Route
+        path="/home/:orderedId"
+        element={<Home />}
+      />
+      <Route
+        path="/home"
+        element={<Home />}
+      />
+      <Route
         path="/checkout"
         element={<Checkout />}
       />
@@ -20,7 +28,7 @@ function App() {
         element={<Orders />}
       />
       <Route
-        path="/tracking"
+        path="/tracking/:orderId"
         element={<Tracking />}
       />
     </Routes>
@@ -28,3 +36,4 @@ function App() {
 }
 
 export default App;
+

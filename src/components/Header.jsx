@@ -5,11 +5,16 @@ import {
   MobileLogoStyled,
 } from "../styles/Header.styled";
 
-function Header() {
+function Header({ totalQuantity, searchTerm, setSearchTerm, onSearchSubmit }) {
+  const handleSearch = (e) => {
+    e.preventDefault();
+    onSearchSubmit(searchTerm.trim());
+  };
+
   return (
     <HeaderStyled>
       <div className="header-left-section">
-        <Link to="/">
+        <Link to="/home">
           <LogoStyled>Riviana Dolce</LogoStyled>
           <MobileLogoStyled>Riviana Dolce</MobileLogoStyled>
         </Link>
@@ -20,25 +25,32 @@ function Header() {
           className="search-bar"
           type="text"
           placeholder="Cauta produse..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
 
         <button
           className="search-button"
           name="search-button"
+          onClick={handleSearch}
         >
           <img
             className="search-icon"
             src="/images/icons/search-icon.svg"
             aria-labelledby="search-button"
             alt="search-button"
+            width={24}
+            height={24}
+            loading="lazy"
+            decoding="async"
           />
         </button>
       </div>
 
       <div className="header-right-section">
         <Link
-          to="/orders"
           className="orders-link header-link"
+          to="/orders"
         >
           <span className="returns-text">Retururi</span>
           <br />
@@ -55,12 +67,16 @@ function Header() {
             src="/images/icons/cart-icon.webp"
             alt="cart-icon"
             aria-labelledby="cart-link"
+            loading="lazy"
+            decoding="async"
+            width={60}
+            height={40}
           />
           <div
             className="cart-quantity"
             aria-labelledby="cart-link"
           >
-            3
+            {totalQuantity}
           </div>
           <div
             className="cart-text"
