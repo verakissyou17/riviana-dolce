@@ -8,6 +8,8 @@ import { OrdersMainStyled } from "../styles/OrdersMain.styled";
 function OrdersMain({ matchingOrders }) {
   return (
     <OrdersMainStyled>
+        <link rel="icon" href="images/icons/orders-favicon.png" />
+      <title>Orders Page</title>
       <div className="orders-page-title">Comenzile tale</div>
       <div className="orders-grid">
         {matchingOrders.map((matchingOrder) => {

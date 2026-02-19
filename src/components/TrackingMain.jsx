@@ -11,6 +11,8 @@ function TrackingMain({ matchingOrders }) {
 
   return (
     <TrackingMainStyled className="tracking-main">
+        <link rel="icon" href="images/icons/tracking-favicon.png" />
+      <title>Tracking Page</title>
       {matchingOrder.map((order, i) => {
         const orderTime = dayjs(order.orderTime);
         const deliveryTime = dayjs(order.products[i].estimatedDeliveryTime);

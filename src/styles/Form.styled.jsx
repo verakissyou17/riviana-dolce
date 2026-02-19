@@ -69,6 +69,9 @@ export const FormStyled = styled.form`
     border-bottom: 1px solid var(--border-line);
     flex: 1;
     margin-right: 0.5em;
+    font-size: 0.9rem;
+    font-family: "Nunito Sans", sans-serif;
+    color: hsl(99, 100%, 23%);
   }
 
   #number,
@@ -77,6 +80,11 @@ export const FormStyled = styled.form`
   #apart,
   #floor {
     max-width: 2rem;
+  }
+
+  .error-message {
+    color: var(--error);
+    margin-top: 0.5rem;
   }
 
   @media (min-width: 65em) {

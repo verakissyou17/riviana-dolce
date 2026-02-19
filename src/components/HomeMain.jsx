@@ -41,6 +41,8 @@ function HomeMain({ products, setQuantities, quantities, addToCart }) {
   }
   return (
     <MainStyled>
+      <link rel="icon" href="images/icons/home-favicon.png" />
+      <title>Riviana Dolce - Home Page</title>
         {products.length === 0 ? (
           <p className="text-no-match">No products match your search.</p>
         ) : (

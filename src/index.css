@@ -11,6 +11,7 @@
   --delivery-option-price: hsl(0, 0%, 19%);
   --added: hsl(166, 91%, 26%);
   --return-to-home-link: hsl(189, 100%, 26%);
+  --error: hsl(0, 96%, 31%);
 
   --header-height: 3.75em;
 }

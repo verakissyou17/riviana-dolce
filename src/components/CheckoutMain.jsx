@@ -16,25 +16,29 @@ function CheckoutMain({
 
   return (
     <CheckoutMainStyled>
+      <link rel="icon" href="./images/icons/cart-favicon.png" />
+      <title>Checkout</title>
       <h1 className="page-title">Cos de cumparaturi</h1>
 
       <div className="checkout-grid">
-        <OrderSummary
-          matchingProducts={matchingProducts}
-          updateCartItemQuantity={updateCartItemQuantity}
-          selectedDeliveryOptionId={selectedDeliveryOptionId}
-        />
-
         {cart.length > 0 && (
-          <PaymentSummary
-            totalQuantity={totalQuantity}
-            matchingProducts={matchingProducts}
-            selectedDeliveryOptionId={selectedDeliveryOptionId}
-            handleSelectedOptionId={handleSelectedOptionId}
-            cart={cart}
-            setCart={setCart}
-            addOrder={addOrder}
-          />
+          <>
+            <OrderSummary
+              matchingProducts={matchingProducts}
+              updateCartItemQuantity={updateCartItemQuantity}
+              selectedDeliveryOptionId={selectedDeliveryOptionId}
+            />
+
+            <PaymentSummary
+              totalQuantity={totalQuantity}
+              matchingProducts={matchingProducts}
+              selectedDeliveryOptionId={selectedDeliveryOptionId}
+              handleSelectedOptionId={handleSelectedOptionId}
+              cart={cart}
+              setCart={setCart}
+              addOrder={addOrder}
+            />
+          </>
         )}
       </div>
     </CheckoutMainStyled>

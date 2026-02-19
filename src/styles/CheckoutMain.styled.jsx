@@ -20,10 +20,10 @@ export const CheckoutMainStyled = styled.main`
   }
 
   @media (min-width: 55em) {
-    max-width: 68.75rem;
+    max-width: 80rem;
 
     .checkout-grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 25rem 1fr;
       column-gap: 1rem;
       row-gap: 0;
       align-items: auto;
