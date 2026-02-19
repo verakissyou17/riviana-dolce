@@ -292,5 +292,10 @@
     "image": "/images/products/chocolate-fudge-cake.webp",
     "name": "Tort cu ciocolata",
     "priceCents": 750
+  },  {
+    "id": "c4d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9g",
+    "image": "/images/products/galaxy-cake.webp",
+    "name": "Galaxy Cake",
+    "priceCents": 1150
   }
 ]

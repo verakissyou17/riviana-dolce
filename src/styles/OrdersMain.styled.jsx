@@ -6,6 +6,7 @@ export const OrdersMainStyled = styled.main`
   font-family: "Merienda", cursive;
   padding-top: 0.5em;
   margin-inline: auto;
+  min-height: 80vh;
 
   .orders-page-title {
     font-weight: 400;

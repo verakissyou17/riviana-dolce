@@ -6,6 +6,7 @@ export const TrackingMainStyled = styled.main`
   padding: 1.5em;
   margin-inline: auto;
   font-family: "Merienda", cursive;
+  min-height: 80vh;
 
   .tracking-product {
     display: grid;

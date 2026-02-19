@@ -23,21 +23,15 @@ function OrderSummary({
     <OrderSummaryStyled>
       {matchingProducts.map((matchingProduct) =>
         matchingProduct.quantity > 0 ? (
-          <div
-            key={matchingProduct.id}
-            className="cart-item-container"
-          >
+          <div key={matchingProduct.id} className="cart-item-container">
             {deliveryOptions.map((option) =>
               option.id === selectedDeliveryOptionId ? (
-                <div
-                  key={option.id}
-                  className="delivery-date"
-                >
+                <div key={option.id} className="delivery-date">
                   {dayjs()
                     .add(Number(option.deliveryDays), "day")
                     .format("dddd, MMMM D")}
                 </div>
-              ) : null
+              ) : null,
             )}
             <section className="cart-item-details-grid">
               <img
@@ -63,7 +57,7 @@ function OrderSummary({
                       onClick={() =>
                         handleQuantityChange(
                           matchingProduct.id,
-                          matchingProduct.quantity - 1
+                          matchingProduct.quantity - 1,
                         )
                       }
                     >
@@ -76,7 +70,7 @@ function OrderSummary({
                       onClick={() =>
                         handleQuantityChange(
                           matchingProduct.id,
-                          matchingProduct.quantity + 1
+                          matchingProduct.quantity + 1,
                         )
                       }
                     >
@@ -96,7 +90,7 @@ function OrderSummary({
               </div>
             </section>
           </div>
-        ) : null
+        ) : null,
       )}
     </OrderSummaryStyled>
   );

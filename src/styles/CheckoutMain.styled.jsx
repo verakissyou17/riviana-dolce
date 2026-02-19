@@ -5,11 +5,13 @@ export const CheckoutMainStyled = styled.main`
   margin-inline: auto;
   padding-inline: 0.5em;
   margin-top: calc(var(--header-height) + 5vh);
+  min-height: 80vh;
 
   .page-title {
     font-weight: 400;
     margin-bottom: 0.75em;
     margin-left: 0.5em;
+    font-family: "Dancing Script", cursive;
   }
 
   .checkout-grid {

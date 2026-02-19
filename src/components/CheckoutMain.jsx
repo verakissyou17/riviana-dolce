@@ -18,7 +18,7 @@ function CheckoutMain({
     <CheckoutMainStyled>
       <link rel="icon" href="./images/icons/cart-favicon.png" />
       <title>Checkout</title>
-      <h1 className="page-title">Cos de cumparaturi</h1>
+            {cart.length > 0 ? <h1 className="page-title">Cos de cumparaturi</h1> : <h1 className="page-title">Cos Gol</h1>}
 
       <div className="checkout-grid">
         {cart.length > 0 && (
