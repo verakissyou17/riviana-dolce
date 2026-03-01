@@ -16,10 +16,12 @@ function Home() {
   } = useProducts();
   const [searchTerm, setSearchTerm] = useState("");
   const [submittedSearch, setSubmittedSearch] = useState("");
-  
+
   const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(submittedSearch.toLowerCase())
+    product.name.toLowerCase().includes(submittedSearch.toLowerCase()),
   );
+
+  console.log("SEARCH:", submittedSearch);
 
   return (
     <>
@@ -29,7 +31,7 @@ function Home() {
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         onSearchSubmit={() => setSubmittedSearch(searchTerm)}
-         setSubmittedSearch={ setSubmittedSearch}
+        setSubmittedSearch={setSubmittedSearch}
       />
       <HomeMain
         products={filteredProducts}
@@ -44,6 +46,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
